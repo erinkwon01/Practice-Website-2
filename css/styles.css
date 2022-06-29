@@ -1,0 +1,44 @@
+/************************** TAG SELECTORS **************************/
+
+
+body {
+    background-color:#d9ebf3;
+}
+
+img {
+    border-radius: 25px;
+}
+
+hr {
+    border-color: #9fdcf6;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px; /* width/size of the border (which is dotted rn) */
+    width: 30%; /* width of the actual line */
+}
+
+h1 {
+    color: #cd6060;
+}
+
+h3 {
+    color:#20905c;
+}
+
+/************************** CLASS SELECTORS **************************/
+/* can be used to change the style of multiple components in one html file */
+.pup {
+    border-width: thick;
+    border-radius: 100%;
+}
+
+.pup:hover {
+    border-radius: 0%;
+}
+
+/************************** ID SELECTORS **************************/
+/* can only be used to change the style of one component in one html file */
+
+#description {
+    color:rgb(203, 112, 127);
+}
